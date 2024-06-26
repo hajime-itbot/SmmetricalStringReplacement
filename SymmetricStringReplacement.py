@@ -29,7 +29,7 @@ if (Count_Word % 2) == 1 : #奇数の場合は、中心が奇数個のアルフ�
     for i in range(len(NumOfAlphabet)) :
         if(NumOfAlphabet[i] % 2) != 0 :
             odd=i
-    Aranged_Word.append(Alphabet[odd])
+    Aranged_Word.append(Alphabet[odd]) #文字列の中心となる奇数個のアルファベットを配列に追加
      
 
 for i in range(int(Count_Word/2)-1,-1,-1) : #線対称性から配列を完成させる。
