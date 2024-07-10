@@ -1,5 +1,4 @@
-Word=input("対称性のあるアルファベットの文字列を入力") #対称性になりうるアルファベット文字列
-Word=list(Word) #アルファベット文字列を配列化
+Word=input("対称性のあるアルファベットの文字列を入力") #対称性になりうるアルファベット文字列(aabbccなど)
 Count_Word=len(Word) #アルファベット文字列数
 Alphabet="abcdefghijklmnopqrstuvwxyz" 
 Alphabet=list(Alphabet) #各アルファベットの配列
